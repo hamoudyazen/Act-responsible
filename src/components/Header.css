@@ -1,0 +1,159 @@
+.headerClass {
+    background-color: #2b2b33;
+    height: 100%;
+    width: 4%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderHam {
+    cursor: pointer;
+}
+
+.headerClassHidden {
+    background-color: #2b2b33;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+@keyframes headerClassHiddenAnimation {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes headerClassHiddenAnimationRev {
+    0% {
+        width: 40%;
+    }
+
+    100% {
+        width: 40;
+        visibility: hidden;
+    }
+}
+
+.HeaderHiddendiv2Ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.HeaderHiddendiv2Li {
+    color: #f3f2f9;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+.HeaderHiddendiv1 {
+    display: flex;
+    align-self: flex-start;
+}
+
+.HeaderHiddendiv2 {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    flex-direction: column;
+    /* Center vertically */
+    height: 100%;
+    /* Make it occupy the full height of the container */
+
+
+}
+
+.HeaderHiddendiv3 {
+    display: flex;
+
+}
+
+@keyframes headerClassHiddenContentAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes headerClassHiddenContentAnimationRev {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.HeaderHiddendiv3 svg {
+    transform: scale(1);
+    transition: transform 0.1s ease;
+}
+
+.HeaderHiddendiv3 svg:hover {
+    transform: scale(1.1);
+}
+
+.devbyme {
+    color: #f3f2f9;
+}
+
+.LinkedInButton {
+    background-color: #0B65C2;
+    color: #f3f2f9;
+    border: #0B65C2;
+    border-radius: 3rem;
+    padding: 10px;
+    margin-top: 10px;
+    transform: scale(1);
+    transition: transform 1s ease;
+}
+
+.LinkedInButton:hover {
+    transform: scale(1.2);
+}
+
+
+.PortfolioButton {
+    background-color: #0B65C2;
+    color: #f3f2f9;
+    border: #0B65C2;
+    border-radius: 3rem;
+    padding: 10px;
+    margin-top: 10px;
+    transform: scale(1);
+    transition: transform 1s ease;
+    margin-left: 10px;
+}
+
+.PortfolioButton:hover {
+    transform: scale(1.2);
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,99 @@
+.FooterContent {
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    direction: rtl;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 0px;
+
+}
+
+.FooterContentDiv1 {
+    width: 33.33%;
+    border-right: 1px solid #2b2b33;
+    border-bottom: 1px solid #2b2b33;
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+.FooterContentDiv2 {
+    width: 33.33%;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    border-right: 1px solid #2b2b33;
+    border-bottom: 1px solid #2b2b33;
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+.FooterContentDiv3 {
+    width: 33.33%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    border-right: 1px solid #2b2b33;
+    border-bottom: 1px solid #2b2b33;
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+
+
+.FooterContentDiv2 ul {
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.FooterContentDiv3 ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.FooterContentDiv2 h1 {
+    font-size: 30px;
+    width: 100%;
+
+}
+
+.FooterContentDiv3 h1 {
+    font-size: 30px;
+    width: 100%;
+
+}
+
+
+.FooterContentDiv2 li {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.FooterContentDiv3 li {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.FooterContentDiv2Div1 {
+    display: flex;
+    flex-direction: column;
+
+}
